@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Easy Food</string>
+    <string name="botoninicial">Ingresar</string>
+    <string name="title_main_activity">Recetario</string>
+    <string name="textoPrincipal">Bienvenido!</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="Recetas">Buscar Recetas</string>
+    <string name="RecetasOpciones">Personalizacion de recetas</string>
+    <string name="Ingredientes">Lista de Ingredientes</string>
+    <string name="Titulo">Titulo</string>
+    <string name="Pasos">Pasos</string>
+    <string name="action_addData">Agregar Receta</string>
+    <string name="FinishEdit">Modificar Receta</string>
+    <string name="FinishNote">Terminar Nota</string>
+
+    <string name="Delete_This">Borrar Receta</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_mostrar_receta">MostrarReceta</string>
+    <string name="title_activity_blockde_notas">BlockdeNotas</string>
+
+</resources>

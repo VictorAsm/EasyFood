@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    tools:context="com.example.usuario.easyfood.com.victor.usuario.easyfood.ModificarReceta"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#404040"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <EditText
+            android:id="@+id/ShowEditTittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/Titulo"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="5dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+
+            <EditText
+                android:id="@+id/ShowEditIngredents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_centerHorizontal="true"
+                android:hint="@string/Ingredientes"
+                android:layout_below="@+id/ShowEditTittle"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="italic"
+                android:textSize="20dp"
+                />
+
+            <EditText
+                android:id="@+id/ShowEditSteps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:hint="@string/Pasos"
+                android:textSize="20dp"
+                android:layout_below="@+id/ShowEditIngredents"
+                android:textColor="@android:color/white"
+                />
+
+            <Button
+                android:id="@+id/FinishEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/FinishEdit"
+                android:layout_below="@+id/ShowEditSteps"
+                android:textStyle="italic"
+                />
+
+            <Button
+                android:id="@+id/DeleteThis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Delete_This"
+                android:layout_below="@id/FinishEdit"
+                android:textStyle="italic"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

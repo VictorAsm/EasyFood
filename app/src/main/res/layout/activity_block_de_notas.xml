@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anotadorpagina"
+    tools:context="com.example.usuario.easyfood.com.victor.usuario.easyfood.BlockDeNotas"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+
+
+    <EditText
+        android:id="@+id/EdTextNotas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Agregue nota"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/FinishNote"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:text="@string/FinishNote"
+        />
+
+</LinearLayout>

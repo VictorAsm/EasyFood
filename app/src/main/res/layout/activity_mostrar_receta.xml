@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#404040"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.example.usuario.easyfood.com.victor.usuario.easyfood.MostrarReceta">>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ShowTittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/Titulo"
+            android:textSize="30dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"
+            />
+
+        <TextView
+            android:id="@+id/ShowIngredents"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/Ingredientes"
+            android:layout_below="@+id/ShowTittle"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/ShowSteps"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Pasos"
+            android:textSize="20dp"
+            android:layout_below="@+id/ShowIngredents"
+            android:textColor="@android:color/white"
+            />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

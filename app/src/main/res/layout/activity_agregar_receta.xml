@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#404040"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context="com.example.usuario.easyfood.com.victor.usuario.easyfood.AgregarReceta"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/Titulo"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/etIngredientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/Ingredientes"
+        android:layout_below="@+id/etTitulo"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/etPasos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Pasos"
+        android:layout_below="@+id/etIngredientes"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Button
+        android:id="@+id/Boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terminar Receta"
+        android:textStyle="italic"
+        android:layout_below="@+id/etPasos"
+        />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
